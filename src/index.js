@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const newTask = document.createElement("list")
     newTask.textContent = newTaskDescription
     
-    // Create a delete button
+    // Creates a delete button
     const deleteButton = document.createElement("button")
     deleteButton.textContent = "X"
     deleteButton.addEventListener("click", function() {
